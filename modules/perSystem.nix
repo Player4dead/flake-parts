@@ -1,4 +1,4 @@
-{ config, lib, flake-parts-lib, inputs, ... }:
+{ config, lib, flake-parts-lib, inputs, self, ... }:
 let
   inherit (lib)
     genAttrs
